@@ -284,8 +284,8 @@ class ParkingLot
 
             }
         }
-        else
-            cout << "Not found" << endl;
+        // else
+        //     cout << "Not found" << endl;
         
         if(p)
             Print(RegNoFromAge);
@@ -310,8 +310,8 @@ class ParkingLot
                 SlotNoFromAge.push_back(mp2[RegNoFromAge[j]]);
             }
         }
-        else
-            cout << "Not found" << endl;
+        // else
+        //     cout << "Not found" << endl;
 
         //cout<<"new!@!#!#!";
         
@@ -337,8 +337,8 @@ class ParkingLot
             return mp2[regNo];
         }
 
-        else
-            cout<<"Not found"<<endl;
+        // else
+        //     cout<<"Not found"<<endl;
 
         return 0;
     }
@@ -353,11 +353,15 @@ int main()
         freopen("output.txt", "w" ,stdout);
         #endif
 
-        //cout<<"Welcome to a Parking Lot System"<<endl;
+        // cout<<"===================================================================\n";
+        // cout<<"\t\tWelcome to a Parking Lot System"<<endl;
+        // cout<<"===================================================================\nEnter below commands: ([] represents input)\n";
+        
 
         int size;
         //cin>>size;
         //cout<<size;
+
         ParkingLot P1;
         P1.initialize();
         string inp;
@@ -365,8 +369,8 @@ int main()
         while(1){
             getline(cin,inp);
             
-            if(inp=="-1")
-                break;
+            if(inp == "")
+              break;
 
             P1.map_to_func(inp);
         }
