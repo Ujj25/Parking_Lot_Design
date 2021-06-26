@@ -1,21 +1,14 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-// bool checkforslot
-// giveslot
-// leaveslot
-// retrieveSlotNuberAge
-// retrieveSlotRegNumber
-// retrieveVehicleNumberAge
-
 class ParkingLot
 {
 
-    set<int> slotList;   // slots list
+    set<int> slotList;                   // slots list
 
-    map<int,pair<string,int>> mp1;    //slot,<regNo,age>
+    map<int,pair<string,int>> mp1;       //slot,<regNo,age>
     map<string,int> mp2;                 //regNo,slot
-    map<int,set<string>> mp3;         //age,list of regNo
+    map<int,set<string>> mp3;            //age,list of regNo
     map<string,string> cmd_to_func;
     map<string,string> spl_var;
     bool flag = 0;
