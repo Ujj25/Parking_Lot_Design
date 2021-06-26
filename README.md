@@ -21,5 +21,12 @@ Due to government regulation, the system should provide us with the ability to f
 We get the input by reading input.txt directly.
 The file will contain a set of commands separated by a newline, we need to execute the commands in order and produce output.
 
+![input txt](https://user-images.githubusercontent.com/40977127/123519995-1c377100-d6cc-11eb-8946-0cc51bf0cf01.png)
+
+
+And here is the corresponding output for the same.
+
+![output txt](https://user-images.githubusercontent.com/40977127/123519996-1d689e00-d6cc-11eb-96ba-61d0f7193b88.png)
+
 
 Author: Ujjwal Saraswat
