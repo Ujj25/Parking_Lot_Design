@@ -16,13 +16,14 @@ Due to government regulation, the system should provide us with the ability to f
 * Slot number in which a car with a given vehicle registration plate is parked. 
 * Slot numbers of all slots where cars of drivers of a particular age are parked.
 
-## Input/Output Format
+## Input Format
 
 We get the input by reading input.txt directly.
 The file will contain a set of commands separated by a newline, we need to execute the commands in order and produce output.
 
 ![input txt](https://user-images.githubusercontent.com/40977127/123519995-1c377100-d6cc-11eb-8946-0cc51bf0cf01.png)
 
+## Output Format
 
 And here is the corresponding output for the same.
 
