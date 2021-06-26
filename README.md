@@ -1,7 +1,5 @@
 # Parking_Lot_Design
 
-Author: Ujjwal Saraswat
-
 Problem Statement
 
 We own a parking lot that can hold up to ‘n’ cars at any given point in time. Each slot is given a number starting at one increasing with increasing distance from the entry point in steps of one. We want to create an automated ticketing system that allows our customers to use our parking lot without human intervention.
@@ -22,3 +20,6 @@ Due to government regulation, the system should provide us with the ability to f
 
 We get the input by reading input.txt directly.
 The file will contain a set of commands separated by a newline, we need to execute the commands in order and produce output.
+
+
+Author: Ujjwal Saraswat
